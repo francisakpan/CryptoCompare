@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">CryptoCompare</string>
+    <string name="nothing_selected">Select Currency</string>
+    <string name="loading_text">Loading&#8230;</string>
+    <string name="loaded_text">0.00</string>
+    <string name="add_card">New card</string>
+    <string name="about">About</string>
+    <string name="hint_text">Type in amount…</string>
+    <string name="add_fragment_text">Select a crypto currency</string>
+    <string name="btc_text">BTC</string>
+    <string name="eth_text">ETH</string>
+    <string name="rate_text">%s</string>
+    <string name="close_text">Close</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="no_network">No network</string>
+    <string name="fragment_title">About CryptoCompare</string>
+    <string name="about_developer">Developed by Francis Benson</string>
+    <string name="about_version">Version: 1.0</string>
+    <string name="about_build_date">Build date: 2017/11/02</string>
+    <string name="about_text">
+        This application compares the exchange rate of a crypto currency with a local currency
+        queried from the cryptoCompare Api endpoint url\n\n
+        <b>https://min-api.cryptocompare.com/data/pricehistorical?fsym=BTC&amp;tsyms=NGN</b>
+    </string>
+    <string-array name="currency">
+        <item>N/A</item>
+        <item>NGN</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>ETB</item>
+        <item>GHS</item>
+        <item>KES</item>
+        <item>MYR</item>
+        <item>QAR</item>
+        <item>SAR</item>
+        <item>ZAR</item>
+        <item>TZS</item>
+        <item>AED</item>
+        <item>CRC</item>
+        <item>ETH</item>
+        <item>RSD</item>
+        <item>QAR</item>
+        <item>ANG</item>
+        <item>EGP</item>
+    </string-array>
+</resources>

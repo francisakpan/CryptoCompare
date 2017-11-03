@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/add_fragment_text"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black" />
+
+    <RadioGroup
+        android:id="@+id/rd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/bitCoin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_bitcoin"
+            android:drawableStart="@drawable/ic_bitcoin"
+            android:text="@string/btc_text"
+            android:clickable="true"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:drawablePadding="@dimen/activity_vertical_margin"/>
+
+        <TextView
+            android:id="@+id/ether"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_ether"
+            android:drawableStart="@drawable/ic_ether"
+            android:text="@string/eth_text"
+            android:clickable="true"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:drawablePadding="@dimen/activity_vertical_margin"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="end"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:background="?selectableItemBackground"
+        android:text="@string/cancel_text" />
+</LinearLayout>
